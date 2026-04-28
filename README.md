@@ -10,9 +10,11 @@
 
 [**Papers**](#-the-foundation--next-gen-era-2024-2025) • [**Datasets**](#-popular-datasets) • [**Contributing**](#-contributing)
 
----
+<p align="center">
+  <img src="images/Teaser.png" alt="Teaser Image" width="600"/>
+</p>
 
-*(💡 Tip: Replace this text with a stunning comparison image showing a recent foundation model handling multiple degradations like rain, noise, and haze).*
+image 
 
 </div>
 
@@ -34,19 +36,19 @@
 
 The field is currently moving towards **Vision-Language Guidance** (CLIP, human instructions), **Foundation Models** (million-scale data), **Mixture-of-Experts (MoE)**, and **Diffusion Priors**.
 
-| Year | Venue | Model Name | Key Contribution | Target Degradations | Code |
-| :--- | :--- | :--- | :--- | :--- | :---: |
-| 2025 | CVPR | **DFPIR** | Feature perturbation to reduce task interference | Noise, Rain, Haze, Blur, Low-light | [🔗](#) |
-| 2025 | CVPR | **Defusion** | Visual-instructed degradation diffusion | Diverse & Mixed | [🔗](#) |
-| 2025 | ICCV | **FoundIR** | Restoration foundation model (Million-scale data) | Real-world Mixed | [🔗](#) |
-| 2025 | CVPR | **MoCE-IR** | Mixture-of-Complexity Experts routing | General Image Restoration | [🔗](#) |
-| 2025 | TIP | **M2Restore** | MoE Mamba-CNN with CLIP-guided routing | Rain, Snow, Haze, Raindrop | [🔗](#) |
-| 2025 | CVPR | **GenDeg** | Diffusion-based degradation synthesis | Haze, Rain, Snow, Blur, LL | [🔗](#) |
-| 2025 | ICLR | **AdaIR** | Degradation-adaptive dynamic modulation | Multiple | [🔗](#) |
-| 2024 | ICLR | **DA-CLIP** | Degradation-aware CLIP features | Multiple | [🔗](#) |
-| 2024 | ECCV | **InstructIR** | Human-written text instructions for control | Noise, Rain, Blur, Haze, LL | [🔗](#) |
-| 2024 | CVPR | **PromptGIP** | General image processing with prompt guidance | Multiple image tasks | [🔗](#) |
-| 2024 | ICLR | **Xformer** | Hybrid Spatial/Channel dual-branch Transformer | Denoising | [🔗](#) |
+| Year | Venue | Model Name | Key Contribution | Target Degradations | Code | Paper
+| :--- | :--- | :--- | :--- | :--- | :---: |:---: |
+| 2025 | CVPR | **DFPIR** | Feature perturbation to reduce task interference | Noise, Rain, Haze, Blur, Low-light | [🔗](#) | [📄](#)
+| 2025 | CVPR | **Defusion** | Visual-instructed degradation diffusion | Diverse & Mixed | [🔗](#) | [📄](#)
+| 2025 | ICCV | **FoundIR** | Restoration foundation model (Million-scale data) | Real-world Mixed | [🔗](#) |[📄](#)
+| 2025 | CVPR | **MoCE-IR** | Mixture-of-Complexity Experts routing | General Image Restoration | [🔗](#) |[📄](#)
+| 2025 | TIP | **M2Restore** | MoE Mamba-CNN with CLIP-guided routing | Rain, Snow, Haze, Raindrop | [🔗](#) | [📄](#)
+| 2025 | CVPR | **GenDeg** | Diffusion-based degradation synthesis | Haze, Rain, Snow, Blur, LL | [🔗](#) | [📄](#)
+| 2025 | ICLR | **AdaIR** | Degradation-adaptive dynamic modulation | Multiple | [🔗](#) | [📄](#)
+| 2024 | ICLR | **DA-CLIP** | Degradation-aware CLIP features | Multiple | [🔗](#) | [📄](#)
+| 2024 | ECCV | **InstructIR** | Human-written text instructions for control | Noise, Rain, Blur, Haze, LL | [🔗](#) | [📄](#)
+| 2024 | CVPR | **PromptGIP** | General image processing with prompt guidance | Multiple image tasks | [🔗](#) | [📄](#)
+| 2024 | ICLR | **Xformer** | Hybrid Spatial/Channel dual-branch Transformer | Denoising | [🔗](#) | [📄](#)
 
 ---
 
@@ -54,15 +56,15 @@ The field is currently moving towards **Vision-Language Guidance** (CLIP, human 
 
 These models focus on handling multiple degradations (e.g., weather or noise/blur) within a single set of weights, pioneering the "All-in-One" paradigm.
 
-| Year | Venue | Model Name | Key Contribution | Target Degradations | Code |
-| :--- | :--- | :--- | :--- | :--- | :---: |
-| 2023 | NeurIPS| **PromptIR** | Learnable degradation prompts for blind IR | Noise, Rain, Haze | [🔗](#) |
-| 2023 | TPAMI | **WeatherDiff**| Diffusion prior for weather restoration | Rain, Haze, Snow | [🔗](#) |
-| 2023 | CVPR | **GridFormer** | Grid-like Transformer for adverse weather | Rain, Haze, Snow | [🔗](#) |
-| 2023 | CVPR | **DiffUIR** | Diffusion model for unified image restoration | Multiple | [🔗](#) |
-| 2023 | ICML | **ShuffleFormer**| Random shuffle local attention | Denoising, Deraining, Deblur | [🔗](#) |
-| 2022 | CVPR | **AirNet** | Contrastive degradation-aware encoder | Noise, Rain, Haze | [🔗](#) |
-| 2022 | CVPR | **TransWeather**| Transformer-based unified weather removal | Rain, Haze, Snow, Raindrop | [🔗](#) |
+| Year | Venue | Model Name | Key Contribution | Target Degradations | Code | Paper
+| :--- | :--- | :--- | :--- | :--- | :---: | :---: |
+| 2023 | NeurIPS| **PromptIR** | Learnable degradation prompts for blind IR | Noise, Rain, Haze | [🔗](#) | [📄](#)
+| 2023 | TPAMI | **WeatherDiff**| Diffusion prior for weather restoration | Rain, Haze, Snow | [🔗](#) | [📄](#)
+| 2023 | CVPR | **GridFormer** | Grid-like Transformer for adverse weather | Rain, Haze, Snow | [🔗](#) | [📄](#)
+| 2023 | CVPR | **DiffUIR** | Diffusion model for unified image restoration | Multiple | [🔗](#) | [📄](#)
+| 2023 | ICML | **ShuffleFormer**| Random shuffle local attention | Denoising, Deraining, Deblur | [🔗](#) | [📄](#)
+| 2022 | CVPR | **AirNet** | Contrastive degradation-aware encoder | Noise, Rain, Haze | [🔗](#) | [📄](#)
+| 2022 | CVPR | **TransWeather**| Transformer-based unified weather removal | Rain, Haze, Snow, Raindrop | [🔗](#) | [📄](#)
 
 ---
 
