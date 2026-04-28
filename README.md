@@ -3,7 +3,7 @@
 # 🌟 Awesome NextGen Image Restoration
 
 ![Awesome](https://awesome.re/badge.svg)
-![Colab Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)
+![Colab Welcome](https://img.shields.io/badge/Colab-welcome-brightgreen.svg?style=flat-square)
 ![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=flat-square)
 
 **A curated list of Next-Generation All-in-One Image Restoration (AiOIR) resources.** *Covering Foundation Models, Mixture-of-Experts (MoE), Diffusion Priors, and Vision-Language Guidance.*
@@ -37,8 +37,8 @@ The field is currently moving towards **Vision-Language Guidance** (CLIP, human 
 
 | Year | Venue | Model Name | Key Contribution | Target Degradations | Code | Paper
 | :--- | :--- | :--- | :--- | :--- | :---: |:---: |
-| 2025 | CVPR | **DFPIR** | Feature perturbation to reduce task interference | Noise, Rain, Haze, Blur, Low-light | [🔗](#) | [📄](#)
-| 2025 | CVPR | **Defusion** | Visual-instructed degradation diffusion | Diverse & Mixed | [🔗](#) | [📄](#)
+| 2025 | CVPR | **DFPIR** | Feature perturbation to reduce task interference | Noise, Rain, Haze, Blur, Low-light | [![Stars](https://img.shields.io/github/stars/TxpHome/DFPIR?style=social)](https://github.com/TxpHome/DFPIR) | [📄](https://openaccess.thecvf.com/content/CVPR2025/papers/Tian_Degradation-Aware_Feature_Perturbation_for_All-in-One_Image_Restoration_CVPR_2025_paper.pdf)
+| 2025 | CVPR | **Defusion** | Visual-instructed degradation diffusion | Diverse & Mixed | - | [📄](https://openaccess.thecvf.com/content/CVPR2025/papers/Luo_Visual-Instructed_Degradation_Diffusion_for_All-in-One_Image_Restoration_CVPR_2025_paper.pdf)
 | 2025 | ICCV | **FoundIR** | Restoration foundation model (Million-scale data) | Real-world Mixed | [🔗](#) |[📄](#)
 | 2025 | CVPR | **MoCE-IR** | Mixture-of-Complexity Experts routing | General Image Restoration | [🔗](#) |[📄](#)
 | 2025 | TIP | **M2Restore** | MoE Mamba-CNN with CLIP-guided routing | Rain, Snow, Haze, Raindrop | [🔗](#) | [📄](#)
