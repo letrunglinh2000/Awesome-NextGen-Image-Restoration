@@ -14,7 +14,6 @@
   <img src="images/Teaser.png" alt="Teaser Image" width="600"/>
 </p>
 
-image 
 
 </div>
 
