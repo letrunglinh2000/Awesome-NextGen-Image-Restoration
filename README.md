@@ -18,16 +18,29 @@
 </div>
 
 ## 🔥 News
+* **[06 May 2026]** Add new methods including: UniRestorer, E-Bridge, DATPRL-IR.
 * **[28 April 2026]** Repository launched as `Awesome-NextGen-Image-Restoration`!
 
 ---
 
 ## 📌 Table of Contents
+* [🔭 2026 Highlights — Foundations, MoE & Diffusion Priors](#-2026-highlights--foundations-moe--diffusion-priors)
 * [🚀 The Foundation & Next-Gen Era (2024–2025)](#-the-foundation--next-gen-era-2024-2025)
-* [🛠️ Unified & All-Weather Restoration (2022–2023)](#️-unified--all-weather-restoration-2022-2023)
-* [🏛️ Classic Backbones & Task-Specific Models](#️-classic-backbones--task-specific-models)
+* [🛠️ Unified & All-Weather Restoration (2022–2023)](#-unified--all-weather-restoration-2022-2023)
+* [🏛️ Classic Backbones & Task-Specific Models](#-classic-backbones--task-specific-models)
 * [📊 Popular Datasets](#-popular-datasets)
 * [🤝 Contributing](#-contributing)
+
+---
+
+## 🔭 2026 Highlights — Foundations, MoE & Diffusion Priors
+
+| Year | Venue | Model Name | Key Contribution | Target Degradations | Code | Paper
+| :--- | :--- | :--- | :--- | :--- | :---: |:---: |
+| 2026 | ICLR | **UniRestorer** | Using a multi-granularity MoE | Multiple |[![Stars](https://img.shields.io/github/stars/mrluin/UniRestorer?style=social)](https://github.com/mrluin/UniRestorer) | [📄](https://openreview.net/pdf?id=nDrZow7fCF)
+| 2026 | ICLR | **E-Bridge** | Energy-oriented diffusion bridges | Multiple | [![Stars](https://img.shields.io/github/stars/jinnh/E-Bridge?style=social)](https://github.com/jinnh/E-Bridge) | [📄](https://openreview.net/pdf?id=B9JHSksyox)
+| 2026 | ICLR | **DATPRL-IR** | Using domain-aware task prompt representation learning | Multiple, Medical image | - | [📄](https://openreview.net/pdf?id=CzVlgDOF7L)
+
 
 ---
 
