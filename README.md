@@ -18,7 +18,7 @@
 </div>
 
 ## 🔥 News
-* **[06 May 2026]** Add new methods including: UniRestorer, E-Bridge, DATPRL-IR.
+* **[06 May 2026]** Add new methods including: UniRestorer, E-Bridge, DATPRL-IR, and so on.
 * **[28 April 2026]** Repository launched as `Awesome-NextGen-Image-Restoration`!
 
 ---
